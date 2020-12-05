@@ -14,7 +14,7 @@ if(isset($_SESSION["connected"])) {
 
   if($_SESSION["connected"]) {
 
-    //header("location: ../views/index.php");
+    header("location: ../views/index.php");
 
   }
 
